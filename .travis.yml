@@ -1,0 +1,11 @@
+language: go
+
+matrix:
+  include:
+    - go: 1.9.2
+    - go: tip
+  allow_failures:
+    - go: tip
+
+script:
+  - make

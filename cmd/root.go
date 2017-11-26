@@ -16,8 +16,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "gotodo",
 	Short: "Yet another TODO command line app",
-	Long: `Yet another TODO command line app. This project is only used as training
-	`,
+	Long:  `Yet another TODO command line app. This project is only used as training.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	//	Run: func(cmd *cobra.Command, args []string) { },
