@@ -2,10 +2,10 @@ language: go
 
 matrix:
   include:
-    - go: 1.9.2
-    - go: tip
-  allow_failures:
-    - go: tip
+    - go: 1.9.x
+
+before_install:
+  - go get -u github.com/golang/dep/cmd/dep
 
 script:
   - make
