@@ -1,4 +1,4 @@
-# GTODO
+# GOTODO
 
 > Yet another TODO command line app
 
